@@ -1,4 +1,5 @@
-function takeANumber(currentLine, name) {
-  return `Welcome ${name} you are number ${i} in line.`
-  var currentLine = i + 1; i++
+var katzDeli = [];
+function takeANumber(katzDeli, name) {
+  katzDeli.push(`${name}`);
+  return (`Welcome ${name} you are number ${katzDeli.length} in line.`)
 }
