@@ -6,6 +6,11 @@ function takeANumber(katzDeli, name) {
 
 function nowServing(katzDeli) {
   let i = 0;
-  do {katzDeli.slice(0), i++}
-  while (i < katzDeli)
-}
+  while (i < katzDeli.length) {
+    i++;
+  }
+  if (katzDeli.length === 0) {
+    return "There is nobody waiting to be served!";
+  }
+  else
+  return (`Currently serving ${katzDeli.shift()}.`);
